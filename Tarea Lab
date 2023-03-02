@@ -1,10 +1,10 @@
 #Ir directorio Home#
 
-cd/home
+ruta=cd/home
 
 #Ir Directoria /var/root#
 
-cd /var/root
+ruta=cd /var/root
 
 #Crear directorio llamado hola#
 
