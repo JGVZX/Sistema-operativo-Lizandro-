@@ -1,0 +1,100 @@
+#Ir directorio Home#
+
+cd/home
+
+#Ir Directoria /var/root#
+
+cd /var/root
+
+#Crear directorio llamado hola#
+
+mkdir hola
+
+#Entrar al directorio#
+
+cd ~/hola
+
+#¿A dónde vamos si escribimos cd ..? Volver después al directorio /var/root/hola #
+
+si escribimos cd .. en la terminal de Bash y presionamos Enter,
+estaremos moviéndonos al directorio padre del directorio actual en el que nos encontramos.
+
+Simplemente si estmos en el directorio hola volveremo a su directorio padre root
+
+#¿A dónde vamos si escribimos cd . ?#
+
+a ningun lado porque el . se refire al directorio actual
+
+#¿Funciona igual cd .. que cd..? (la diferencia es el espacio en blanco) #
+
+El comando cd .. y cd.. en Bash son semejantes, y se utilizan para moverse hacia el directorio padre del directorio actual.
+Ambos hacen lo mismo.Pero, es importante notar que los dos comandos se escriben 
+de manera diferente. El comando cd .. tiene un espacio entre cd y .., mientras que cd.. no lo tiene. 
+Por esta razón, el comando cd.. puede generar un error si se escribe de esta manera en la terminal, 
+ya que Bash no lo reconocerá como un comando válido. Para evitar esto, asegúrate de escribir correctamente el 
+comando cd .. con un espacio entre cd y ...
+
+Ejersicio#2
+
+#Ir al directorio raíz / #
+
+cd /
+
+#Ir al directorio /dev#
+
+cd /dev
+
+#Listar los archivos del directorio actual #
+
+simplemente ls
+
+#Listar los archivos del directorio actual añadiendo los modificadores -la #
+
+Este comando mostrará una lista de los archivos y directorios que se encuentran en el directorio actual, 
+incluyendo los archivos y directorios ocultos.
+
+#Ir al directorio /home #
+
+cd /home/
+
+#Prueba ahí los siguientes comandos y explica en el foro las diferencias.#
+
+Los tres comandos listan los archivos y directorios del directorio actual en la terminal de Bash, 
+pero con diferentes opciones y formatos de salida.
+
+El comando ls -l lista los archivos y directorios en un formato detallado de una columna,
+que muestra información sobre permisos, propietarios, tamaño y fecha de modificación, pero no muestra los archivos ocultos.
+
+El comando ls -la lista todos los archivos y directorios, incluyendo los archivos ocultos, en un formato detallado de una columna, 
+que muestra información sobre permisos, propietarios, tamaño y fecha de modificación.
+
+El comando ls -lah es similar al anterior, pero el modificador -h se utiliza para mostrar los tamaños de los archivos en un formato 
+legible para humanos, es decir, con unidades de tamaño más familiares, como KB, MB o GB, en lugar de bytes.
+
+Ejersicio 3
+
+#Entra al directorio /var/root/hola #
+
+cd /var/root/hola
+
+Ejersicio 4
+
+#Cambia el nombre del fichero archivo.txt por fl001.txt #
+
+mv archivo.txt fl001.txt
+
+#Copia el archivo fl001.txt en el archivo fl002.txt #
+
+simplemente utilizamos cp cp fl001.txt fl002.txt
+
+#Edita con vi el archivo fl002.txt #
+
+vi fl002.txt
+#Busca los tres puntos (escribe /...). ¿A dónde te ha llevado? #
+
+Al escribir /... en la línea de comandos de Bash, estás buscando un directorio llamado ... 
+en el directorio raíz (/) del sistema de archivos.
+Pero Sin embargo, es poco probable que encuentres un directorio con ese nombre, ya que los nombres de archivo 
+y directorio que comienzan con puntos (.) en Linux generalmente se utilizan para archivos y directorios ocultos 
+que no se muestran en las listas de archivos regulares a menos que se especifique explícitamente que se deben mostrar.
+
