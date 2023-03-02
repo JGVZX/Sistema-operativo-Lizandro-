@@ -98,3 +98,12 @@ Pero Sin embargo, es poco probable que encuentres un directorio con ese nombre, 
 y directorio que comienzan con puntos (.) en Linux generalmente se utilizan para archivos y directorios ocultos 
 que no se muestran en las listas de archivos regulares a menos que se especifique explícitamente que se deben mostrar.
 
+#Escribe la siguiente instrucción: cat fl002.txt fl002.txt fl002.txt > fl003.txt #
+
+cat archivo1 archivo2 archivo3 > archivo_salida
+
+a instrucción cat fl002.txt fl002.txt fl002.txt > fl003.txt en Bash concatenará el contenido del archivo fl002.txt tres veces 
+es decir, duplicará el contenido dos veces y lo redireccionará a un nuevo archivo llamado fl003.txt.
+
+En este caso, el comando especifica tres veces el archivo fl002.txt como entrada y redirecciona la salida al archivo fl003.txt, 
+que se creará o sobrescribirá si ya existe.
